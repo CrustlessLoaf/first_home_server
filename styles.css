@@ -1,0 +1,205 @@
+body{
+    text-align: left;
+    background: rgb(45, 10, 45);
+    color: greenyellow;
+    font-size: x-large;
+    font-weight: bold;
+}
+nav {
+  max-width: 100%;
+  overflow: auto;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  #contactList li {
+    font-size: 0.8em;
+    margin: 0 5px;
+  }
+}
+#jess{
+    text-align: left;
+    background-color: white;
+    background-image: url(conf.png);
+    background-size: cover;
+    color: rgb(216, 24, 158);
+    font-size: x-large;
+    font-weight: bold;
+}
+#jess p{
+    background-color: rgb(0, 0, 0);
+    margin-left: 5%;
+    margin-right: 10%;
+}
+#jess ul{
+    background-color: rgb(0, 0, 0);
+    margin-left: 8%;
+    margin-right: 10%;
+
+}
+#jess h2{
+    background-color: rgb(0, 0, 0);
+    margin-right: 80%;
+}
+#jess nav{
+    background-color: rgb(0, 0, 0);
+    margin-right: 80%;
+}
+#prs{
+    display: flex;
+    justify-content: center;
+}
+#prs img{
+    image-resolution: 360px;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    text-indent: 3ex;
+}
+a{
+    color: lightblue;
+}
+.jess{
+    background-color: rgb(0, 0, 0);
+}
+#nameTitle2 span{
+    color: rgb(134, 109, 245);
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0.25em rgb(255, 175, 0);
+    border-style: solid;
+    border-radius: 1cm;
+}
+#nameTitle2{
+    position: fixed;
+    max-width: 100%;
+    width: 100%;
+    background-color: rgb(219, 13, 140);
+    margin: auto;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+}
+#nameTitle{
+    position: fixed;
+    max-width: 100%;
+    width: 100%;
+    background-color: rgb(75,10,75);
+    margin: auto;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+}
+#nameTitle span{
+    color: forestgreen;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0.25em rgb(255, 175, 0);
+    border-style: solid;
+    border-radius: 1cm;
+
+
+}
+
+h2.contact{
+    width: 100.5%;
+    display: block;
+    margin: auto;
+    margin-left: -6px;
+    padding-left: +6px;
+    text-align: left;
+    font-family: Arial, "Trebuchet MS", Helvetica,
+        sans-serif;
+    background-color: rgb(114, 3, 3);
+}
+
+
+
+
+.linecolor {
+    color: blueviolet;
+    cursor: grab;
+}
+
+#contact{
+    position: sticky;
+    z-index: 1;
+    background-color: rgb(114, 3, 3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 80px;
+    margin-left: -6px;
+    margin-right: -6px;
+    padding-left: 0px;
+}
+
+
+#contactList{
+    position: relative;
+    width: 97%;
+    align-items: center;
+    white-space: nowrap;
+    display: inline-block;
+    margin-right: 0;
+    padding-right: 0;
+
+
+}
+#contactList li{
+    position: relative;
+    width: 32%;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+}
+
+.bio{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    max-width: 100%;
+    width: 1200px;
+    margin: 0px auto;
+    padding: 0 auto;
+
+}
+#exp li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+ul #exp{
+    position: relative;
+    left: 100px;
+}
+
+#linkedin {
+    color: rgb(128, 147, 255);
+    text-align: center;
+}
+#instagram{
+    color: rgb(128, 147, 255);
+    text-align: center;
+}
+#email {
+    position: inherit;
+    color: rgb(128, 147, 255);
+    text-align: center;
+    text-decoration: underline;
+}
